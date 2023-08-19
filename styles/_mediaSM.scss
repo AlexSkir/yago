@@ -157,6 +157,16 @@
   .d-less-sm-none {
     display: none;
   }
+
+  .home-section__price-block {
+    width: 130px;
+    height: 23px;
+    margin-bottom: -5px;
+
+    .price-block_old-price {
+      font-size: 13px;
+    }
+  }
 }
 
 @media (min-width: 376px) {

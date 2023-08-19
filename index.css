@@ -722,6 +722,16 @@ section {
   .d-less-sm-none {
     display: none;
   }
+
+  .home-section .home-section__container .home-section__price-block {
+    width: 130px;
+    height: 23px;
+    margin-bottom: -5px;
+  }
+
+  .home-section .home-section__container .home-section__price-block .price-block_old-price {
+    font-size: 13px;
+  }
 }
 
 @media (min-width: 376px) {
@@ -764,16 +774,6 @@ section {
   .home-section .home-section__container .home-section__paragraph {
     font-size: 18px;
     margin-bottom: 0;
-  }
-
-  .home-section .home-section__container .home-section__price-block {
-    width: 130px;
-    height: 23px;
-    margin-bottom: -5px;
-  }
-
-  .home-section .home-section__container .home-section__price-block .price-block_old-price {
-    font-size: 13px;
   }
 
   .bonus-section .bonus-section__bonus-wrapper {
