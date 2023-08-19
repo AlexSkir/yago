@@ -147,6 +147,18 @@
   }
 }
 
+@media (min-width: 600px) {
+  .d-wider-sm-none {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .d-less-sm-none {
+    display: none;
+  }
+}
+
 @media (min-width: 376px) {
   .d-wider-xs-none {
     display: none;
