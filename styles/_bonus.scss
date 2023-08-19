@@ -1,0 +1,21 @@
+.bonus-section__bonus-wrapper {
+  width: 100%;
+  max-width: 874px;
+  margin-top: 48px;
+  margin-bottom: 67px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bonus-section__bonus-block {
+  width: 100%;
+  max-width: 400px;
+  min-height: 218px;
+  margin-bottom: 61px;
+
+  img {
+    margin-bottom: 16px;
+  }
+}
