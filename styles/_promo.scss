@@ -31,10 +31,17 @@
   max-height: 420px;
   z-index: -1;
 
-  .promo1 {
-    position: absolute;
-    top: -50%;
-    right: -65%;
+  &.promo-bike {
+    background: url('./assets/webp/promo1.webp');
+    background-position: -177px -60px;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    width: 560px;
+    height: 560px;
+    top: -55px;
+    right: -180px;
+    max-width: none;
+    max-height: none;
   }
 
   .promo2 {

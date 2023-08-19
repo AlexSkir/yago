@@ -84,16 +84,14 @@
     }
   }
 
-  .promo-section {
-    overflow: hidden;
-
-    .promo-section__image .promo1 {
-      width: 720px;
-      height: 720px;
-      top: -75px;
-      right: -220px;
+  .promo-section__image {
+    &.promo-bike {
+      background-position: -139px -48px;
+      width: 500px;
+      height: 500px;
+      top: -40px;
+      right: -24px;
     }
-
   }
 }
 
