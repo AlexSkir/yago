@@ -76,8 +76,10 @@ section {
 
 .sticky__btn {
   justify-content: center;
-  width: 311px;
-  height: 49px;
+  width: 100%;
+  height: auto;
+  max-width: 311px;
+  min-height: 49px;
   position: fixed;
   bottom: 50px;
   left: 0;
